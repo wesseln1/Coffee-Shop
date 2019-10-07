@@ -5,6 +5,7 @@ import PastryList from "../Pastries/PastryList";
 // import NavBar from "../NavBar/NavBar";
 import CoffeeDetails from "../Coffee/CoffeeDetails";
 import HomePage from "../Home";
+import { Card, CardTitle } from "reactstrap";
 
 export default class ApplicationViews extends Component {
   render() {
@@ -15,6 +16,32 @@ export default class ApplicationViews extends Component {
           path="/coffee"
           render={props => {
             return <CoffeeList />;
+          }}
+        />
+        <Route
+          exact
+          path="/menu"
+          render={props => {
+            return (
+              <>
+                <Card className="menu">
+                  <Card className="menuCard">
+                    <CardTitle>
+                      <h2 className="menuText">Coffee</h2>
+                    </CardTitle>
+                  </Card>
+                  <CoffeeList />
+                </Card>
+                <Card className="menu">
+                  <Card className="menuCard">
+                    <CardTitle>
+                      <h2 className="menuText">Pastries</h2>
+                    </CardTitle>
+                  </Card>
+                  <PastryList />
+                </Card>
+              </>
+            );
           }}
         />
         <Route

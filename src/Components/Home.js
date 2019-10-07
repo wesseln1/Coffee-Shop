@@ -20,7 +20,9 @@ export default class HomePage extends Component {
             Hungry? Come get one of our tasty treats or Breakfast, Lunch, or
             Dinner!
           </CardText>
+          <Link to="/pastries">
           <Button className="coffeeCardButton">Nomm</Button>
+          </Link>
         </Card>
         <Card body inverse className="coffeeCardEven">
           <CardTitle>Menu</CardTitle>

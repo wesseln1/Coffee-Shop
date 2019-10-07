@@ -14,3 +14,22 @@
     color: black;
     width: 12%;
 }
+
+.menu {
+    /* border: outset 2px black; */
+    background-color: black;
+    display: flex;
+}
+.menuCard {
+    align-items: center;
+    border: outset 5px #F2E0C9;
+    background-color: black;
+    text-align: center;
+    width: 20%;
+}
+
+.menuText {
+    margin: 5px;
+    padding: 5px;
+    color: #F2E0C9;
+}
