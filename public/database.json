@@ -1,0 +1,26 @@
+{
+    "coffees": [
+        {
+            "id": 1,
+            "name": "Cuban"
+        },
+        {
+            "id": 2,
+            "name": "Nitro Cold Brew"
+        },
+        {
+            "id": 3,
+            "name": "Latte"
+        }
+    ],
+    "pastries": [
+        {
+            "id": 1,
+            "name": "Big Red Dough",
+            "describtion": "Red frosted hole with cherry filling! Yum!",
+            "qty": 4
+        }
+    ],
+    "employees": [],
+    "stores": []
+}
