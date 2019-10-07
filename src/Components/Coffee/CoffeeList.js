@@ -15,13 +15,23 @@ export default class CoffeeList extends Component {
     });
   }
 
+  deleteCoffee = id => {
+    // calling the database to delete card then render the new data to dom
+    APIManager.delete("coffees", id).then(() => {
+      APIManager.getAll("coffees").then(newCoffees => {
+        this.setState({
+          coffees: newCoffees
+        });
+      });
+    });
+  };
+
   render() {
      console.log(this.state.allCoffee)
     return (
       <>
-        <h1>COFFEE LIST</h1>
         {this.state.allCoffee.map(coffee => (
-          <CoffeeCard key={coffee.id} coffee={coffee}/>
+          <CoffeeCard key={coffee.id} coffee={coffee} deleteCoffee={this.deleteCoffee}/>
         ))}
       </>
     );

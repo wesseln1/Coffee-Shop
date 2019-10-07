@@ -1,26 +1,40 @@
 {
-    "coffees": [
-        {
-            "id": 1,
-            "name": "Cuban"
-        },
-        {
-            "id": 2,
-            "name": "Nitro Cold Brew"
-        },
-        {
-            "id": 3,
-            "name": "Latte"
-        }
-    ],
-    "pastries": [
-        {
-            "id": 1,
-            "name": "Big Red Dough",
-            "describtion": "Red frosted hole with cherry filling! Yum!",
-            "qty": 4
-        }
-    ],
-    "employees": [],
-    "stores": []
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Nitro Cold Brew",
+      "price": "$4.25",
+      "description": "Chill times call for a chilly wake up call! If your heart is as cold as the weather, you'll love this Cold Brew!"
+    },
+    {
+      "id": 2,
+      "name": "Latte",
+      "price": "$3.50",
+      "description": "Lightly roasted to perfection, this Summer Latte will satisfy even the most pick of Latte drinkers!"
+    },
+    {
+      "id": 3,
+      "name": "Cuban",
+      "price": "$7.00",
+      "description": "Feeling like a Commie? Try out our Cuban, the only coffee for Castro!"
+    }
+  ],
+  "pastrys": [
+    {
+      "id": 1,
+      "name": "Big Red Dough",
+      "price": "$1.50",
+      "description": "Red frosted hole with cherry filling! Yum!",
+      "qty": 4
+    },
+    {
+      "id": 2,
+      "name": "Big Blue Dough",
+      "price": "$1.50",
+      "description": "Blue frosted hole with rasberry filling! Yum!",
+      "qty": 4
+    }
+  ],
+  "employees": [],
+  "stores": []
 }

@@ -1,0 +1,16 @@
+.coffeeCardEven {
+    background-color: #5A7302 !important;
+}
+.coffeeCardOdd {
+    background-color: #465902 !important;
+}
+.coffeeCardButton {
+    background-color: #F2E0C9;
+    color: black;
+    width: 12%;
+}
+.coffeeCardDeleteButton {
+    background-color: #F2E0C9;
+    color: black;
+    width: 12%;
+}

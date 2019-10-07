@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import { BrowserRouter as Router } from "react-router-dom";
 import { Link } from "react-router-dom";
+import "./NavBar.css"
 import CoffeeList from "../Coffee/CoffeeList"
 
 export default class NavBar extends Component {
